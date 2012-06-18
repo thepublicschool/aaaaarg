@@ -1,4 +1,5 @@
 #!/bin/bash
+# Download all item pages, listed in alphabetic result pages, into it's own dir.
 cd library
 ROOT_DIR=`pwd`
 for page in `ls ./*/*.html`

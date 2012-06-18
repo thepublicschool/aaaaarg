@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Download PDF/ZIP into corresponding item dirs.
 cd library
 ROOT_DIR=`pwd`
 for dir in `ls`

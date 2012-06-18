@@ -1,4 +1,5 @@
 #!/bin/bash
+# Download all alphabetic result pages into a directory alled library.
 mkdir -p library; cd library
 for letter in {a..z}
 do
